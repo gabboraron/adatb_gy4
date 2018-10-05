@@ -104,6 +104,7 @@ SELECT * FROM dolgozo d1, dolgozo d2 WHERE d1.fonoke = d2.dkod AND
 - Kik szeretnek minden gyümölcsöt?
 
 ````SQL
+
 (SELECT nev FROM szeret)
  MINUS
  (SELECT nev FROM
@@ -112,6 +113,7 @@ SELECT * FROM dolgozo d1, dolgozo d2 WHERE d1.fonoke = d2.dkod AND
         (SELECT gyumolcs FROM szeret))
     MINUS
         (SELECT *FROM szeret)));
+        
 ```
 
 #  Kiterjesztett relációs algebra
