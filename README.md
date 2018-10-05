@@ -114,7 +114,7 @@ SELECT * FROM dolgozo d1, dolgozo d2 WHERE d1.fonoke = d2.dkod AND
     MINUS
         (SELECT *FROM szeret)));
         
-```
+````
 
 #  Kiterjesztett relációs algebra
 
